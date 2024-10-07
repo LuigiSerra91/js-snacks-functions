@@ -5,6 +5,16 @@ const name = 'Mario';
 
 // Dichiara la funzione qui.
 
+function saluto(string){
+    console.log(`ciao ${string}`)
+}
+
+
+
+// Invoca la funzione qui e stampa il risultato in console
+
+saluto(name);
+
 
 // Invoca la funzione qui e stampa il risultato in console
 
