@@ -4,6 +4,23 @@ const names = ["Anna", "Luca", "Marco", "Adele", "Laura", "Alessandra"];
 
 
 // Dichiara la funzione qui.
+function filter_word(array, lettera) {
+    let iniziale;
+    let filter_names = [];
+    for (let i = 0; i < array.length; i++) {
+        iniziale = array[i].charAt(0);
+        if(lettera === iniziale){
+            filter_names.push(array[i]);
+        }
+        
+    }
+    console.log(filter_names);
+    
+}
+
+// Invoca la funzione qui e stampa il risultato in console
+
+filter_word(names , "A");
 
 
 // Invoca la funzione qui e stampa il risultato in console
